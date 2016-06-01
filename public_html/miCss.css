@@ -1,0 +1,54 @@
+#body{
+    
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: green;
+}
+
+#head{
+    //width: 100;
+    height: 60px;
+    background-color: #00CC33;
+    text-align: center;
+    
+}
+#centro{
+    margin-top: 10px;
+    height: 580px;
+    background-color: #00CC66;
+    background-image: url("media/rosas.png");
+    
+ }
+
+#venJu{
+    float:left;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 300px;
+    height:500px;
+    text-align: left;
+    border-radius: 20px; 
+    padding:20px;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.5); 
+    
+ }   
+ 
+
+#venPun{
+    float:right;
+    margin-top: 20px;
+    margin-right: 40px;
+    text-align: center;
+    width: 200px;
+    height:300px;
+    border-radius: 20px; /*Redondea el borde*/
+    padding:20px; /*Espacio entre margen y texto*/
+    box-shadow:0px 0px 20px rgba(0,0,0,0.5); 
+}
+#pie{
+    padding-top: 3px;
+    padding-left: 20px;
+    background-color: #00CC33;
+    height: 60px ;
+}
